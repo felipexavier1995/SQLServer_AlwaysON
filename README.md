@@ -18,4 +18,17 @@ Na prática, o Always On se divide em duas soluções complementares:
 <h1> :computer: Always On Availability Groups (AGs)</h1>
 Os Availability Groups permitem agrupar um ou mais bancos de dados de usuário (chamados availability databases) e replicá-los para um ou mais servidores secundários, mantendo cópias sincronizadas ou assíncronas prontas para assumir em caso de falha.
 
-Principais características:
+### Principais características:
+
+1. Replicação em nível de banco de dados, não de instância inteira.
+2. Suporta até 8 réplicas secundárias.
+3. Modos de disponibilidade:
+   1. Synchronous Commit — zero perda de dados, mas com impacto de latência.
+   2. Asynchronous Commit — melhor performance, com possível perda mínima de dados em failover.
+4. Réplicas secundárias podem ser usadas para:
+   1. Leitura (Read-Only Routing) — descarrega relatórios e consultas da réplica primária.
+   2. Backups — reduz carga de I/O no servidor principal.
+5. Requer um Windows Server Failover Cluster (WSFC).
+6. Automatic Failover disponível em configurações síncronas com quorum adequado.
+
+<h1> :computer: Always On Failover Cluster Instances (FCI) </h1>
