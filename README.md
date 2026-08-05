@@ -32,3 +32,37 @@ Os Availability Groups permitem agrupar um ou mais bancos de dados de usuário (
 6. Automatic Failover disponível em configurações síncronas com quorum adequado.
 
 <h1> :computer: Always On Failover Cluster Instances (FCI) </h1>
+
+O FCI protege a instância inteira do SQL Server (não apenas bancos específicos), utilizando armazenamento compartilhado (Shared Storage) entre os nós do cluster.
+
+Principais características:
+
+1. Um único nome virtual de rede (VNN) e IP virtual representam a instância, independentemente de qual nó físico está ativo.
+2. Em caso de falha, o serviço do SQL Server é reiniciado em outro nó do cluster, apontando para o mesmo storage compartilhado. (Por esse motivo o nome ser alta disponibilidade)
+3. Protege contra falhas de servidor/hardware, mas não contra falhas do storage (por isso é comum combinar FCI + AGs em arquiteturas mais robustas).
+4. Depende obrigatoriamente de Windows Server Failover Cluster (WSFC).
+
+### <h1> :computer: Componentes-chave da arquitetura (AGs)</h1>
+1. WSFC (Windows Server Failover Cluster) — infraestrutura de cluster que fornece o mecanismo de quorum e monitoramento de saúde dos nós.
+2. Listener — endpoint de rede único (para AGs) que redireciona conexões automaticamente para a réplica primária atual.
+3. Endpoint de espelhamento (Database Mirroring Endpoint) — canal de comunicação usado para replicação entre réplicas. (Entre os nos SQL01 e SQL02)
+
+### <h1> ✅ Benefícios </h1>
+1. Redução drástica de RTO (Recovery Time Objective) e RPO (Recovery Point Objective).
+2. Failover automático ou manual, com mínima intervenção humana.
+3. Melhor aproveitamento de hardware, usando réplicas secundárias para leitura e backup.
+4. Flexibilidade para combinar AGs e FCI conforme a criticidade de cada aplicação.
+
+### <h1> 📚 Requisitos usados para a criação dos servidores e seus nomes. </h1>
+
+| System | Memory | Storage | Network |
+| --- | --- | --- | --- |
+| Winodws Server 2019 | 4GB | 50GB | Internal Network and NAT |
+
+###<h1> 📋 Pré-requisitos gerais </h1>
+1. SQL Server Enterprise Edition (para funcionalidades completas; Standard Edition possui versão simplificada, "Basic Availability Groups", desde o SQL 2016).
+2. Windows Server Failover Clustering habilitado
+3. Conectividade de rede estável e de baixa latência entre os nós
+4. Storage compartilhado (para FCI) ou storage independente por nó (para AGs). (Usaremos o AGs)
+
+
