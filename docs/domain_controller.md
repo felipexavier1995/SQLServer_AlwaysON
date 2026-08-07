@@ -1,4 +1,4 @@
-<h1>✅ DC01 promovido a Domain Controller.</h1>
+<h1>✅ DC01 promovindo a Domain Controller.</h1>
 
 Já com os três servidores instalado o Sistema Operacional, precisamos alegar um deles como o Domain Controller.
 
