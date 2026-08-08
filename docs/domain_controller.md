@@ -51,3 +51,12 @@ O confirmation é uma resumo de tudo que vai ser instalado no servidor \
 
 Na aba de Results é o que foi instalado para ser declarado como Domain Controller. \
 <img width="788" height="557" alt="image" src="https://github.com/user-attachments/assets/20a2fc3d-7e7c-437a-b1f0-f9e59273da57" />
+
+Ao finalizar, o Windows vai pedir para reiniciar o servidor, ao reiniciar vai apresentar como LABSQL\Administrator \
+O prefixo LABSQL é o NetBIOS name do domínio que acabamos de criar. \
+Isso confirma que o DC01 já está operando como Domain Controller do domínio labsql.local. \
+<img width="1022" height="835" alt="image" src="https://github.com/user-attachments/assets/6cd1de37-391b-49e8-92c0-11636d4b463f" />
+
+<h1>✅ Ingressando os servidores VM-SQL01 e VM-SQL02 no domínio. </h1>
+
+
