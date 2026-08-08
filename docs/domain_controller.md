@@ -46,6 +46,6 @@ Em Server Roles vamos deixar marcado apenas as seguintes opções.
 * Active Directory Certificate Services. 
 <img width="790" height="563" alt="image" src="https://github.com/user-attachments/assets/e07b42c1-bbf1-41b5-80fa-f6ce3c640d1b" />
 
-A confirmação é uma resumo de tudo que vai ser instalado no servidor \
+O conformation é uma resumo de tudo que vai ser instalado no servidor \
 <img width="789" height="559" alt="image" src="https://github.com/user-attachments/assets/64b48de1-6d67-4e4a-8c08-eeb5a0864eb0" />
 
