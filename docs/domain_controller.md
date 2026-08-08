@@ -43,9 +43,9 @@ A seguir vai apresentar o nome do servidor e o IP do mesmo.
 <img width="784" height="560" alt="image" src="https://github.com/user-attachments/assets/6c10f808-f5ea-4911-8623-9cae05071bd4" />
 
 Em Server Roles vamos deixar marcado apenas as seguintes opções.
-* Active Directory Certificate Services.
-* DNS Server 
-<img width="818" height="624" alt="image" src="https://github.com/user-attachments/assets/64016e5c-e1e5-45d1-94ec-075d5eec0037" />
+* Active Directory Certificate Services. 
+<img width="790" height="563" alt="image" src="https://github.com/user-attachments/assets/e07b42c1-bbf1-41b5-80fa-f6ce3c640d1b" />
 
-
+A confirmação é uma resumo de tudo que vai ser instalado no servidor \
+<img width="789" height="559" alt="image" src="https://github.com/user-attachments/assets/64b48de1-6d67-4e4a-8c08-eeb5a0864eb0" />
 
