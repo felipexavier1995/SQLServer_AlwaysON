@@ -49,3 +49,5 @@ Em Server Roles vamos deixar marcado apenas as seguintes opções.
 O confirmation é uma resumo de tudo que vai ser instalado no servidor \
 <img width="789" height="559" alt="image" src="https://github.com/user-attachments/assets/64b48de1-6d67-4e4a-8c08-eeb5a0864eb0" />
 
+Na aba de Results é o que foi instalado para ser declarado como Domain Controller. \
+<img width="788" height="557" alt="image" src="https://github.com/user-attachments/assets/20a2fc3d-7e7c-437a-b1f0-f9e59273da57" />
