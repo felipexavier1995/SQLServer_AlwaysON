@@ -38,3 +38,14 @@ Na parte superior a esquerda se encontra com o computer nome e o domain
 Na proxima etapa basta deixar como está no momento, porque vai ser apenas um servidor de Domain com algumas roles e features. 
 <img width="792" height="562" alt="image" src="https://github.com/user-attachments/assets/2d1c2d5a-85cc-4afd-ab58-c45ce6cb87f7" />
 
+No filtro vamos digitar o nome do servidor [DC01] e definir que esse servidor será o Domain Controller. \
+A seguir vai apresentar o nome do servidor e o IP do mesmo.
+<img width="784" height="560" alt="image" src="https://github.com/user-attachments/assets/6c10f808-f5ea-4911-8623-9cae05071bd4" />
+
+Em Server Roles vamos deixar marcado apenas as seguintes opções.
+* Active Directory Certificate Services.
+* DNS Server 
+<img width="818" height="624" alt="image" src="https://github.com/user-attachments/assets/64016e5c-e1e5-45d1-94ec-075d5eec0037" />
+
+
+
