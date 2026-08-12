@@ -79,6 +79,29 @@ ping DC01.labsql.local
 
 <img width="682" height="772" alt="image" src="https://github.com/user-attachments/assets/fddabb1c-489f-444e-b309-7f1a8c4b1663" />
 
-<h1>✅ Ingressando os servidores SQL01 e SQL02 no domínio. </h1>
+<h1>✅ Failover Clustering instalado nos 2 nós. </h1>
+
+Isso precisa ser feito em SQL01 e SQL02 (não no DC01 — o DC não faz parte do cluster de failover do SQL).
+
+Repita esse processo nas duas VMs (SQL01 e SQL02) e me avisa quando ambas tiverem o Failover Clustering instalado. \
+Depois seguimos para a criação do cluster propriamente dito (via Failover Cluster Manager), que vai envolver validar a configuração e nomear o cluster. \
+
+Ao logar no servidor basta ir server manager, add roles.
+<img width="1027" height="283" alt="image" src="https://github.com/user-attachments/assets/4fa74ac1-0ab2-4e62-816b-c5f2a56fbf70" />
+
+Vai abrir um pop-up \
+<img width="792" height="565" alt="image" src="https://github.com/user-attachments/assets/d5f77f9e-1279-41bf-af88-aa274041acfc" />
+<img width="786" height="561" alt="image" src="https://github.com/user-attachments/assets/a589dac2-295d-4db6-be61-dcafca35600f" />
+
+vai sempre apontar o servidor em questão (Nesse caso é SQL01)
+<img width="789" height="562" alt="image" src="https://github.com/user-attachments/assets/e1bf176b-ebb0-4c3c-822c-b842ef24c8fd" />
+
+Na aba server roles não marcar em nada e seguir em frente 
+<img width="789" height="563" alt="image" src="https://github.com/user-attachments/assets/5d601b3b-be52-4d63-9ec0-42f2eaaff553" />
+
+Na aba features deixar marcado o Failover Cluster e next
+<img width="790" height="563" alt="image" src="https://github.com/user-attachments/assets/bddab11f-6f34-460d-809e-1ea6c935a3a0" />
+
+E por ultimo vai ter a aba de Confirmation (que é um resumo do que vai ser instalado)
 
 
