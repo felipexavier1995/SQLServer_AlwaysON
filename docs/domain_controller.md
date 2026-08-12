@@ -68,6 +68,17 @@ E depois clicar em change e colocar os nomes do computador e o domain. \
 Ao confirmar isso, o proprio servidor vai indicar para reiniciar (Por favor fazer isso para validar) \
 Repetir esse processo para o servidor SQL02
 
+Uma observação: Ao concluir em colocar todos os servidores no domain. \
+Testar resolução de nome completo (FQDN) entre os 3 servidores \
+
+De qualquer uma das VMs, teste:  
+
+ping SQL01.labsql.local \
+ping SQL02.labsql.local \
+ping DC01.labsql.local  
+
+<img width="682" height="772" alt="image" src="https://github.com/user-attachments/assets/fddabb1c-489f-444e-b309-7f1a8c4b1663" />
+
 <h1>✅ Ingressando os servidores SQL01 e SQL02 no domínio. </h1>
 
 
