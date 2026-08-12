@@ -58,7 +58,16 @@ Isso confirma que o DC01 já está operando como Domain Controller do domínio l
 <img width="1022" height="835" alt="image" src="https://github.com/user-attachments/assets/6cd1de37-391b-49e8-92c0-11636d4b463f" />
 
 <h1>✅ SQL01 e SQL02 ingressados no domínio. </h1>
+A seguir, ao ligar o servidor basta ir na aba "local server" e depois trocar o nome do computar e domain \
 
-<h1>✅ Ingressando os servidores VM-SQL01 e VM-SQL02 no domínio. </h1>
+<img width="1021" height="362" alt="image" src="https://github.com/user-attachments/assets/af444472-8cb0-419a-bdd8-1bcdd4f44adb" />
+<img width="408" height="469" alt="image" src="https://github.com/user-attachments/assets/4b69aba5-0241-41a1-85fb-1f6c0fd70e87" /> 
+
+E depois clicar em change e colocar os nomes do computador e o domain. \
+<img width="325" height="392" alt="image" src="https://github.com/user-attachments/assets/786eeebb-6215-4b65-9025-589aa03d3262" /> \
+Ao confirmar isso, o proprio servidor vai indicar para reiniciar (Por favor fazer isso para validar) \
+Repetir esse processo para o servidor SQL02
+
+<h1>✅ Ingressando os servidores SQL01 e SQL02 no domínio. </h1>
 
 
