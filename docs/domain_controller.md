@@ -102,6 +102,7 @@ Na aba server roles não marcar em nada e seguir em frente
 Na aba features deixar marcado o Failover Cluster e next
 <img width="790" height="563" alt="image" src="https://github.com/user-attachments/assets/bddab11f-6f34-460d-809e-1ea6c935a3a0" />
 
-E por ultimo vai ter a aba de Confirmation (que é um resumo do que vai ser instalado)
+E por ultimo vai ter a aba de Confirmation (que é um resumo do que vai ser instalado) \
+Ao finalizar, vamos fazer a validação do Windows Server Failover Cluster (WSFC)
 
 
