@@ -57,6 +57,8 @@ O prefixo LABSQL é o NetBIOS name do domínio que acabamos de criar. \
 Isso confirma que o DC01 já está operando como Domain Controller do domínio labsql.local. \
 <img width="1022" height="835" alt="image" src="https://github.com/user-attachments/assets/6cd1de37-391b-49e8-92c0-11636d4b463f" />
 
+<h1>✅ SQL01 e SQL02 ingressados no domínio. </h1>
+
 <h1>✅ Ingressando os servidores VM-SQL01 e VM-SQL02 no domínio. </h1>
 
 
