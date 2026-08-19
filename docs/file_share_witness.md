@@ -29,7 +29,8 @@ Select Quorum Configuration Option: selecione "Select the quorum witness" → Ne
 Select Quorum Witness: selecione "Configure a file share witness" → Next \
 Configure File Share Witness: digite o caminho UNC da pasta compartilhada:
 
-\\DC01\FSW_SQLCLUSTER
+\\DC01\FSW_SQLCLUSTER \
+
 <img width="684" height="468" alt="image" src="https://github.com/user-attachments/assets/beaa886c-48ca-4dc6-ac92-49ac8deab524" />
 
 
