@@ -51,6 +51,10 @@ Ao seguir vai conter esses warning são referente alguns atualizações do Siste
 Podemos seguir em frente e posteriormente atualizar o Windows. 
 <img width="808" height="608" alt="image" src="https://github.com/user-attachments/assets/ad915d8f-3507-4703-a0eb-46a35ea5c698" />
 
+Na parte de feature selection, vamos marcar nas opções:
+1. ✅ Database Engine Services
+2. ✅ Client Tools Connectivity
+
 
 
 
