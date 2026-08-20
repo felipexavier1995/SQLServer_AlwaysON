@@ -52,10 +52,20 @@ Podemos seguir em frente e posteriormente atualizar o Windows.
 <img width="808" height="608" alt="image" src="https://github.com/user-attachments/assets/ad915d8f-3507-4703-a0eb-46a35ea5c698" />
 
 Na parte de feature selection, vamos marcar nas opções:
-1. ✅ Database Engine Services
-2. ✅ Client Tools Connectivity
+1. ✅ Database Engine Services = É o único componente obrigatório e essencial para o haver o sql server e a feature do Always On e Availability Groups.
+2. ✅ Client Tools Connectivity = Instala componentes de conectividade.
+
+A seguir, vamos alterar os caminhos com esses valores: \
+Instance root directory: C:\Program Files\Microsoft SQL Server\ ✅ \
+Shared feature directory: C:\Program Files\Microsoft SQL Server\ ✅ \
+Shared feature directory (x86): C:\Program Files (x86)\Microsoft SQL Server\ ✅
+
+<img width="1015" height="726" alt="image" src="https://github.com/user-attachments/assets/516ae065-0fce-435e-a99b-98af7d1981df" />
 
 
-
+Ao seguir, vai validar alguns valores e ir na tela.
+O nome é Instance ID: MSSQLSERVER
+E o diretorio: C:\Program Files\ Microsoft SQL Server\MSSQL13.MSSQL13SERVER
+<img width="1007" height="730" alt="image" src="https://github.com/user-attachments/assets/2cb222a6-f022-479d-b59a-b85a6a2aa783" />
 
 
