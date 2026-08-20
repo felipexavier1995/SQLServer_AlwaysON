@@ -68,4 +68,13 @@ O nome é Instance ID: MSSQLSERVER
 E o diretorio: C:\Program Files\ Microsoft SQL Server\MSSQL13.MSSQL13SERVER
 <img width="1007" height="730" alt="image" src="https://github.com/user-attachments/assets/2cb222a6-f022-479d-b59a-b85a6a2aa783" />
 
+Na parte do Server Configuration
+Ajusta o SQL Server Agent para Automatic, e depois clique na aba "Collation" (ao lado de "Service Accounts", no topo) — me manda um print dela também antes de seguirmos para o Next. \
+Na aba "Collation" vai está como SQL_Latin1_General_CP1_CI_AS \
+<img width="1004" height="458" alt="image" src="https://github.com/user-attachments/assets/31240038-d424-475a-b65a-71e92874f3ed" />
 
+Na aba Database Engine Configuration vamos configurar o Authentication Mode como: \
+Mixed Mode e definir a senha como 1qaz@WSX \
+<img width="1005" height="730" alt="image" src="https://github.com/user-attachments/assets/b78c37d2-45c6-484e-9886-dffbdb514363" />
+
+Já na aba de Data Directories é onde vai fazer a configuração dos diretorios
