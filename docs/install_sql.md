@@ -93,3 +93,5 @@ E adicionar o Domain Admins \
 Em Ready Install vai apresentar um resumo o que vai ser instalado no nosso servidor. Logo podemos seguir com o INSTALL
 <img width="1002" height="727" alt="image" src="https://github.com/user-attachments/assets/59bc7efc-2a8e-4d86-a87c-4071ffed94bb" />
 
+Instalação concluida com sucesso.
+<img width="1005" height="717" alt="image" src="https://github.com/user-attachments/assets/f0b96941-6df2-4b1b-90dd-c70eb3da058e" />
