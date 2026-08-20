@@ -73,8 +73,18 @@ Ajusta o SQL Server Agent para Automatic, e depois clique na aba "Collation" (ao
 Na aba "Collation" vai está como SQL_Latin1_General_CP1_CI_AS \
 <img width="1004" height="458" alt="image" src="https://github.com/user-attachments/assets/31240038-d424-475a-b65a-71e92874f3ed" />
 
-Na aba Database Engine Configuration vamos configurar o Authentication Mode como: \
+Na aba Database Engine Configuration 
+
+1. Em Server Configuration, vamos configurar o Authentication Mode e Specify SQL Server administrators(sa) \
 Mixed Mode e definir a senha como 1qaz@WSX \
+E adicionar o Domain Admins \
 <img width="1005" height="730" alt="image" src="https://github.com/user-attachments/assets/b78c37d2-45c6-484e-9886-dffbdb514363" />
 
-Já na aba de Data Directories é onde vai fazer a configuração dos diretorios
+2. Em Data directories, vamos mudar alguns caminhos dos diretorios.
+
+<img width="1001" height="725" alt="image" src="https://github.com/user-attachments/assets/859d61e5-2819-4cdd-96cd-efd8170df405" />
+
+3. Em TempDB, vamos mudar o caminho para o disco X (Separando todos os arquivos temporarios)
+<img width="1005" height="725" alt="image" src="https://github.com/user-attachments/assets/3e533947-517c-466a-9bae-8b7a9985571d" />
+
+
