@@ -87,4 +87,9 @@ E adicionar o Domain Admins \
 3. Em TempDB, vamos mudar o caminho para o disco X (Separando todos os arquivos temporarios)
 <img width="1005" height="725" alt="image" src="https://github.com/user-attachments/assets/3e533947-517c-466a-9bae-8b7a9985571d" />
 
+4. Em Filestream pode deixar desmarcado (Porque é recurso usado para armazenar dados binários grandes )
+<img width="1004" height="488" alt="image" src="https://github.com/user-attachments/assets/ccc67456-f2b9-4da1-94a7-f7d483f0ba3e" />
+
+Em Ready Install vai apresentar um resumo o que vai ser instalado no nosso servidor. Logo podemos seguir com o INSTALL
+<img width="1002" height="727" alt="image" src="https://github.com/user-attachments/assets/59bc7efc-2a8e-4d86-a87c-4071ffed94bb" />
 
