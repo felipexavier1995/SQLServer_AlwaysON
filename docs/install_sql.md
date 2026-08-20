@@ -17,3 +17,14 @@ Ao baixar o instalador, vamos executar ele para assim gerar o arquivo .ISO
 OBS: Vamos colocar como Ingles para ter uma padronização com ambiente de produção global.
 
 
+<h3> 💻 Adicionando o arquivo .ISO na maquina virtual. </h3>
+
+Antes de ligar os servidor SQL01 e SQL02, vai ser necessário colocar o arquivo .ISO na unida de disco (DVD)
+
+<img width="653" height="561" alt="image" src="https://github.com/user-attachments/assets/159d3bc6-94f0-4899-a8b9-cb5ca5dac8f7" />
+
+Agora basta ligar o servidor para reconhecer a instalação do sql server no servidor.
+
+<h3> 💻 Instalação do serviço do SQL SERVER. </h3>
+
+
