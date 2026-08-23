@@ -23,6 +23,11 @@ Uma observação que podemos citar é onde contem o localhost podemos substituir
 <img width="538" height="512" alt="image" src="https://github.com/user-attachments/assets/0d412846-a9f5-4c8d-8f5e-31a50cbc744f" />
 
 
-
+Detalhe importante para deixar claro:
+| O que digitamos | resultado |
+| --- | --- |
+| localhost | ✅ Conecta (aponta pra própria máquina) |
+| SQL01 (nome real) | ✅ Também conectaria |
+| MSSQLSERVER | ❌ Erro — não é um nome de host |
 
 
