@@ -9,4 +9,6 @@ OBS: Contem um pre requisito para ser instalado que é a atualizar do .net frame
 Para a nosso finalidade que é utilizar o banco de dados, basta deixar qualquer box desmarcada e clicar em install
 <img width="1907" height="929" alt="image" src="https://github.com/user-attachments/assets/327115af-2e84-4aa9-ad19-8709f01286af" />
 
-Ao terminar o processo, 
+Ao terminar o processo de instalação vai pedir para restart o servidor.
+<img width="1201" height="739" alt="image" src="https://github.com/user-attachments/assets/1e0bc348-431d-4941-ab05-15f9fce60cd6" />
+
