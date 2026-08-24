@@ -9,11 +9,21 @@ E clicar com o botão direito em SQL Server (MSSQLSERVER)
 Ir em Properties \
 <img width="901" height="498" alt="image" src="https://github.com/user-attachments/assets/311a05f6-f3e1-43cc-bd09-2faef88cd7b2" />
 
-Ir em AlwaysOn High Availability e habilitar AG e depois aplicar.
+Ir em AlwaysOn High Availability e habilitar AG e depois aplicar. \
 <img width="418" height="501" alt="image" src="https://github.com/user-attachments/assets/06e8b968-2d87-41ae-8cb4-1f0e5180b7af" />
 
 Fez isso também no servidor SQL02.
 
 
 <h3> ✅ 	Criar o Availability Group + Listener. </h3>
-Ao habilitar em ambos os servidores, precisamos entrar o SSM
+
+Antes de fazer/habilitar o AlwaysON, vamos criar um banco de dados de teste para se colocado como alta disponibilidade esse banco de dados que foi criado. \
+<img width="345" height="323" alt="image" src="https://github.com/user-attachments/assets/131056b1-df7f-43fe-b11a-8b9bb8629e48" />
+
+
+
+Agora vamos precisamos entrar o MSSQL Server (SQL Server Management Studio) e ir AlwaysOn High Availability com o botão direito e habilitar o serviço \
+<img width="473" height="339" alt="image" src="https://github.com/user-attachments/assets/4e3422c9-e390-46ee-95ca-9618e1280a8b" />
+
+
+
