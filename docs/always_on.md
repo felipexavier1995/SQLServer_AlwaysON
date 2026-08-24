@@ -58,3 +58,7 @@ Na próxima tela vai conter a configuração do servidor que vai receber os dado
 Que no caso é "\\SQL01\Backup"
 <img width="958" height="619" alt="image" src="https://github.com/user-attachments/assets/2b220cb1-0c65-4689-bdef-0811d2a5cb52" />
 
+
+Na proxima tela, contem o validation, onde vai ser listado e validado cada etapa. Clicar em next
+<img width="1916" height="932" alt="image" src="https://github.com/user-attachments/assets/24e1ca78-e0d1-41db-8876-2fc0eea2f436" />
+
