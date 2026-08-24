@@ -49,5 +49,12 @@ Ao adicionar o SQL02, vamos precisar alterar alguns pontos com esses parâmetros
 <img width="955" height="573" alt="image" src="https://github.com/user-attachments/assets/6cf0ce20-4ae8-4482-bffe-add257879efb" />
 
 Próximo passo — Configurar o Listener, na aba Listener \
-Ao clicar em add, vai abrir uma janela para adicionar o IP Fixo, no nosso caso o Ip é 192.168.10.50 \
-<img width="956" height="924" alt="image" src="https://github.com/user-attachments/assets/b61b6654-a378-47b6-8240-6d1fdafc1fec" />
+Ao clicar em add, vai abrir uma janela para adicionar o IP Fixo, no nosso caso o Ip é 10.0.3.50 \
+<img width="958" height="920" alt="image" src="https://github.com/user-attachments/assets/13cc8b04-31e6-4d1e-a9f4-49f789d23aa3" />
+
+Por ultimo vai ser feito uma validação dos configurações.
+
+Na próxima tela vai conter a configuração do servidor que vai receber os dados (Que no caso é o SQL02) logo vai precisar de adicionar um caminho de rede
+Que no caso é "\\SQL01\Backup"
+<img width="958" height="619" alt="image" src="https://github.com/user-attachments/assets/2b220cb1-0c65-4689-bdef-0811d2a5cb52" />
+
