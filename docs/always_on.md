@@ -32,4 +32,22 @@ A seguir vai conter a tela de configuração do AG e Cluster \
 O nome do nosso AG vai ser Ag-LAB
 <img width="824" height="751" alt="image" src="https://github.com/user-attachments/assets/21b43132-a2d1-433a-b867-71c43c7c9c5b" />
 
+Ao seguir a tela, vai conter o nosso banco de dados e o seguinte status de 'Meets prerequisites'
+Isso quer dizer que antes de dar andamento vai precisar fazer um backup full
 
+BACKUP DATABASE database_test \
+TO DISK = 'D:\MSSQL\Backup\database_test.bak' \
+WITH INIT; \
+
+<img width="827" height="752" alt="image" src="https://github.com/user-attachments/assets/2902300b-32d7-47c1-bec4-b5399a07b0ef" />
+
+Ai clicar em next, vai pedir para adicionar o outro servidor (SQL02) que vai ser a replicação.
+<img width="961" height="741" alt="image" src="https://github.com/user-attachments/assets/dbf858e9-c103-48e8-b6bd-ca897507aa29" />
+<img width="959" height="720" alt="image" src="https://github.com/user-attachments/assets/bbafd7b8-a16a-4052-82c1-887ee536300f" />
+
+Ao adicionar o SQL02, vamos precisar alterar alguns pontos com esses parâmetros 
+<img width="955" height="573" alt="image" src="https://github.com/user-attachments/assets/6cf0ce20-4ae8-4482-bffe-add257879efb" />
+
+Próximo passo — Configurar o Listener, na aba Listener \
+Ao clicar em add, vai abrir uma janela para adicionar o IP Fixo, no nosso caso o Ip é 192.168.10.50 \
+<img width="956" height="924" alt="image" src="https://github.com/user-attachments/assets/b61b6654-a378-47b6-8240-6d1fdafc1fec" />
