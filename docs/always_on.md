@@ -62,3 +62,5 @@ Que no caso é "\\SQL01\Backup"
 Na proxima tela, contem o validation, onde vai ser listado e validado cada etapa. Clicar em next
 <img width="1916" height="932" alt="image" src="https://github.com/user-attachments/assets/24e1ca78-e0d1-41db-8876-2fc0eea2f436" />
 
+Por ultimo, vai ter a tela do Sumary onde contem o resumo do que vai ser feito (Set nossa configuração), clicar em finish para configurar o nosso ambiente.
+<img width="1919" height="930" alt="image" src="https://github.com/user-attachments/assets/75ae032c-6020-4580-852c-a0b33c1b6dce" />
