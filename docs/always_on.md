@@ -12,4 +12,8 @@ Ir em Properties \
 Ir em AlwaysOn High Availability e habilitar AG e depois aplicar.
 <img width="418" height="501" alt="image" src="https://github.com/user-attachments/assets/06e8b968-2d87-41ae-8cb4-1f0e5180b7af" />
 
-Fez isso tambem no servidor SQL02.
+Fez isso também no servidor SQL02.
+
+
+<h3> ✅ 	Criar o Availability Group + Listener. </h3>
+Ao habilitar em ambos os servidores, precisamos entrar o SSM
