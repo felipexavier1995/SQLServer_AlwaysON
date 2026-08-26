@@ -64,3 +64,12 @@ Na proxima tela, contem o validation, onde vai ser listado e validado cada etapa
 
 Por ultimo, vai ter a tela do Sumary onde contem o resumo do que vai ser feito (Set nossa configuração), clicar em finish para configurar o nosso ambiente.
 <img width="1919" height="930" alt="image" src="https://github.com/user-attachments/assets/75ae032c-6020-4580-852c-a0b33c1b6dce" />
+
+Finalizado o processo. Logo, no nosso servidor SQL01 e SQL02 o banco database_test vai está com o status de Synchronized \
+
+OBSERVAÇÕES: Foi realizado algumas alterações de nomes, como por exemplo o Listener e o banco de dados conforme o print a seguir. \
+<img width="293" height="460" alt="image" src="https://github.com/user-attachments/assets/d60ab2e5-ba5e-416e-b92e-9b92ad72ff06" /> \
+<img width="293" height="490" alt="image" src="https://github.com/user-attachments/assets/9d6713df-9e40-4430-b5a3-91ed07159ec3" />
+
+
+
