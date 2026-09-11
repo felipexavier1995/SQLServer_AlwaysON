@@ -2,7 +2,10 @@
 use [nome do banco de dados];
 go
 
-
+backup database [nome do banco de dados]
+  TO DISK = N'[caminho do backup].bak'
+  WITH INIT, COMPRESSION, STATS = 15;
+GO
 
 --- query para backup log.
 use [nome do banco de dados];
