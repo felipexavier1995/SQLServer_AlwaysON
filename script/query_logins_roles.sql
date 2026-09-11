@@ -1,5 +1,9 @@
 --- query para listar logins e suas roles de servidor.
-
+/*
+Todos os logins (SQL e Windows) com tipo, status (habilitado/desabilitado) e datas.
+Roles de servidor associadas a cada login (ex: sysadmin, serveradmin), concatenadas numa única coluna.
+Filtra logins internos do sistema
+*/
 SELECT
     sp.name AS [Login],
     sp.type_desc AS [Tipo],
